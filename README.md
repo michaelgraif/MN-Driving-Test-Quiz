@@ -2,6 +2,10 @@
 
 A Python toolkit for automatically generating multiple-choice practice questions from driver's manual PDFs using AI. This project extracts content from PDF driver's manuals and uses OpenAI's API to create realistic practice exam questions.
 
+## Live Demo
+
+For a live demo see https://mn-driving-test-quiz.s3.ap-south-1.amazonaws.com/index.html.
+
 ## Overview
 
 This repository contains three main scripts that work together to:
