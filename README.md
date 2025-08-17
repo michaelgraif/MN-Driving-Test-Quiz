@@ -34,7 +34,7 @@ The main question generation script that uses OpenAI's API to create practice qu
 - Saves each batch as individual JSON files with timestamps
 - Supports resuming from a specific chunk if interrupted
 
-### `combine_quetion_json_files.py`
+### `combine_question_json_files.py.py`
 Utility script to merge all generated question files into a single dataset.
 
 **Features:**
@@ -93,7 +93,7 @@ python create_questions.py
 After generating all questions:
 
 ```bash
-python combine_quetion_json_files.py
+python combine_question_json_files.py.py
 ```
 
 This creates `combined_questions.json` with all questions in a single, shuffled file.
