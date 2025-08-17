@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Driver’s Ed Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Driver’s Ed Quiz</h1>
+      <div class="progress-wrap" aria-label="Progress">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      <div class="meta">
+        <span id="qIndex">Question 1/40</span>
+        <span id="score">Score: 0</span>
+      </div>
+    </header>
+
+    <section id="card" class="card">
+      <div id="question" class="question">Loading question…</div>
+      <form id="options" class="options" aria-label="Answer choices"></form>
+
+      <div id="feedback" class="feedback" hidden></div>
+
+      <div class="actions">
+        <button id="submitBtn" class="btn primary" disabled>Submit</button>
+        <button id="nextBtn" class="btn" hidden>Next</button>
+      </div>
+    </section>
+
+    <section id="result" class="result" hidden>
+      <h2 id="resultTitle"></h2>
+      <p id="resultStats"></p>
+      <div id="missedList" class="missed"></div>
+      <div class="actions">
+        <button id="retryBtn" class="btn primary">Try Again</button>
+      </div>
+    </section>
+
+    <footer class="footnote">
+      <small>Questions loaded from <code>combined_questions.json</code>.</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
