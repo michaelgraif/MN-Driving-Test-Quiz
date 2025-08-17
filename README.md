@@ -149,4 +149,4 @@ Beyond overall improvement of the quiz app, the question bank could be enhanced 
 
 ## License
 
-This project is intended for educational purposes. Ensure you have proper rights to use the driver's manual content and comply with your state's regulations regarding driver education materials.
+This project is intended for educational purposes and is provided without any warranty, guarantee or endorsement.
