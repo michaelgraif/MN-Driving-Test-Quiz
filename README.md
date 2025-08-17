@@ -141,7 +141,7 @@ Each generated question follows this JSON structure:
 
 ## Cost Considerations
 
-Using OpenAI's API incurs costs based on token usage. This uses gpt5-mini which is adequate for these purposes. See pricing details fro OpenAI.
+Using OpenAI's API incurs costs based on token usage. This uses gpt5-mini which is adequate for these purposes. See pricing details from OpenAI.
 
 ## Future Enhancements
 
